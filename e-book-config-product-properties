@@ -1,0 +1,12 @@
+
+#--------db--------------
+mybatis.type-aliases-package=com.agan.book.product.domain
+mybatis.mapper-locations=classpath:mybatis/com/agan/book/product/*.xml
+
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/book-product?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+
+spring.datasource.username={cipher}9a397fdb0a4c63a9db4fb8ae0574d2a2a84e5ea721764ce287e36fcfd1ac7025
+spring.datasource.password=
+#-------------------------
+ 
