@@ -1,0 +1,7 @@
+#指定一个注册中心 因为我们这边做了集群 
+#eureka.client.serviceUrl.defaultZone=http://user:123456@eureka1:3333/eureka/,http://user:123456@eureka2:4444/eureka/
+eureka.client.serviceUrl.defaultZone=http://eureka:8761/eureka/
+#默认false 这里设置为true 表示开启读取配置中心的配置
+spring.cloud.config.discovery.enabled=true
+#对应eureka中的配置中心 serviceId 默认是configserver
+spring.cloud.config.discovery.serviceId=config-server
